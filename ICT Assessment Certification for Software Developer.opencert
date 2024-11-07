@@ -1,0 +1,63 @@
+{
+  "version": "https://schema.openattestation.com/2.0/schema.json",
+  "data": {
+    "id": "1fa36276-4480-42f4-91df-55c395e4da13:string:671b6c7336346134931f1f57-57",
+    "name": "65464747-d6fa-49ce-bd47-7227177ca98d:string:ICT Assessment Certification for Software Developer",
+    "recipient": {
+      "name": "9950ecc7-9ecd-437c-94b6-a684c9fae408:string:Ye Myint Oo",
+      "email": "1d409af5-e9c9-4b11-b788-1f0d321ea544:string:ye.myintoo@ncs.com.sg"
+    },
+    "issuers": [
+      {
+        "id": "d05b793e-a8e7-45e4-938c-32f80a502ffc:string:did:ethr:0x284dd9055fd3762d46ee5566cded4d1bf8bce190",
+        "issuerName": "c2d517c2-0e2e-4995-8c54-239673085884:string:GovTech Digital Academy/ NUS-ISS",
+        "name": "3a2fc6c4-16c5-4e03-b039-a6d1f8658af0:string:GovTech Digital Academy / NUS-ISS",
+        "revocation": {
+          "type": "710808fb-ee29-47fa-92fd-94cd5ff277dc:string:REVOCATION_STORE",
+          "location": "94a01153-03c5-431c-ad99-6d375138bee9:string:0x47e05c86b58f47e8ea3831c880c014797aa9db79"
+        },
+        "identityProof": {
+          "type": "27e0de67-4754-42f9-80dc-319046680344:string:DNS-DID",
+          "key": "09ea0c83-353b-4048-9871-c407090272d3:string:did:ethr:0x284dd9055fd3762d46ee5566cded4d1bf8bce190#controller",
+          "location": "5907bd5a-5670-497f-8d6a-82d3a109e293:string:iss.nus.edu.sg"
+        },
+        "url": "dad64f2c-b6eb-409c-81d6-b91dced0adbc:string:https://www.iss.nus.edu.sg/"
+      }
+    ],
+    "issuedOn": "6afec64b-1de9-4fb6-bde1-a67d38003f22:string:2024-10-25T00:00:00+08:00",
+    "additionalData": {
+      "extra": {
+        "assessmentDate": "9bb282f5-6b41-4dc2-8b39-cb7744cdf5f6:string:2024-10-23T00:00:00+08:00",
+        "validTill": "a6d2cf1d-d458-4452-8078-ee5b26b9ea9a:string:2027-10-22T00:00:00+08:00"
+      }
+    },
+    "$template": {
+      "name": "44ff2fff-c2ea-49e6-b605-a0297942192b:string:NUS-ISS-2022-1",
+      "type": "5a50b019-1ad0-42f8-9de1-c20190969d29:string:EMBEDDED_RENDERER",
+      "url": "e5f0a24c-ca39-493a-afe8-b0f522d6e16a:string:https://opencerts.nus.edu.sg"
+    }
+  },
+  "schema": "https://raw.githubusercontent.com/OpenCerts/open-certificate/master/schema/transcripts/2.0/schema.json",
+  "signature": {
+    "type": "SHA3MerkleProof",
+    "targetHash": "6277b3ad04847e2db6743f39421229ce62f78843e7979ee0c3a8c82b4c78faa5",
+    "proof": [
+      "16994883d9484b61bfc97289808f648c8b934d7dc2177cafd3288e3f907e31d2",
+      "f1d7e0c5a5be27e06b6492d78019cc1d933338fb441f1a3efc9c7a602f4e2b5a",
+      "888689a589f8c70ff1b0a6476c19955e73b001d273bac5be46fc79c2b0f440e6",
+      "45d01543ed1705bafcfa553b328d76c8050f0bf2a0b5a32e9a1e2bba8b78c9c9",
+      "a5794d447b81f68012b387bd7f63f99759145239bb8f958064ae2f8bff6ab28e",
+      "84f1ca7a0e5cb1ed14c33aca3f857f75a7c13762109213f3bab036f4562b49d8"
+    ],
+    "merkleRoot": "d6463f70c8c7f5a97a7f3d3c2ce9b452382eea818836a1a0ede55797ccbc6a6e"
+  },
+  "proof": [
+    {
+      "type": "OpenAttestationSignature2018",
+      "created": "2024-10-28T07:01:16.279Z",
+      "proofPurpose": "assertionMethod",
+      "verificationMethod": "did:ethr:0x284dd9055fd3762d46ee5566cded4d1bf8bce190#controller",
+      "signature": "0x3f142489ecc238bdebdeff662cbd58d2b9e87ee5158f5299b4a9fa81958f43ff46a07e838947d87c4ece856810e14dd2cec28be0d51c19aca923ce7d97f578071c"
+    }
+  ]
+}
